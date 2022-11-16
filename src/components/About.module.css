@@ -1,0 +1,61 @@
+.mainArticleAboutStyle {
+  z-index: 1;
+  background-image: url("https://picsum.photos/id/631/1920/1080");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  padding: 3rem 0.75rem;
+}
+.shadow {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.marginBottom {
+  margin-bottom: 4rem;
+}
+.btn {
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 0.5rem 3.25rem;
+  color: white;
+}
+.btn:active {
+  background: white;
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .marginBottom {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .marginBottom {
+    width: 60%;
+  }
+  .btn {
+    transition: 1s all ease-in-out;
+  }
+  .btn:hover {
+    background: white;
+    color: black;
+    transition: 1s all ease-in-out;
+  }
+}
