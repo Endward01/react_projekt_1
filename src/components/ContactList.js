@@ -1,10 +1,14 @@
 import ContactListArr from "../data/ContactListArr";
-import style from "./ContactList.module.css";
+import style from "../CSS/ContactList.module.css";
+
 
 const ContactList = () => {
   const list = ContactListArr.map((elem) => (
     <li key={elem.id} className={style.list}>
-      <p className={style.photo}></p>
+      <div
+        style={{ backgroundImage: `url(${elem.photoOfEmployee})` }}
+        className={style.photo}
+      ></div>
       <p className={style.name}>
         {elem.nameOfEmployee} {elem.lastNameOfEmployee} {"["}
         {elem.positionOfEmployee}

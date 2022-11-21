@@ -11,9 +11,18 @@
   font-size: 26px;
   margin-bottom: 4rem;
 }
+.list {
+  display: grid;
+  grid-column: 1;
+  gap: 2rem;
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 720px;
+  }
+  .list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }
 @media screen and (min-width: 992px) {
@@ -24,5 +33,11 @@
     text-align: left;
     font-size: 36px;
     margin-bottom: 3rem;
+  }
+  .list {
+    width: 100%;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
   }
 }

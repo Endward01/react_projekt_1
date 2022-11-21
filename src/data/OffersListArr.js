@@ -1,10 +1,10 @@
 const OffersListArr = [
-  { id: 1, name: "Usługa 1" },
-  { id: 2, name: "Usługa 2" },
-  { id: 3, name: "Usługa 3" },
-  { id: 4, name: "Usługa 4" },
-  { id: 5, name: "Usługa 5" },
-  { id: 6, name: "Usługa 6" },
+  {name: "Usługa 1", new: true },
+  {name: "Usługa 2", new: false },
+  {name: "Usługa 3", new: false },
+  {name: "Usługa 4", new: false },
+  {name: "Usługa 5", new: false },
+  {name: "Usługa 6", new: false },
 ];
 
 export default OffersListArr;
