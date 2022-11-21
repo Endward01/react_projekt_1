@@ -1,3 +1,7 @@
+#Preview
+
+https://lovely-chaja-416c34.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
