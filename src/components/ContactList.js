@@ -3,8 +3,8 @@ import style from "../CSS/ContactList.module.css";
 
 
 const ContactList = () => {
-  const list = ContactListArr.map((elem) => (
-    <li key={elem.id} className={style.list}>
+  const list = ContactListArr.map((elem, key) => (
+    <li key={key} className={style.list}>
       <div
         style={{ backgroundImage: `url(${elem.photoOfEmployee})` }}
         className={style.photo}
