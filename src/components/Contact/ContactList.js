@@ -1,6 +1,5 @@
-import ContactListArr from "../data/ContactListArr";
-import style from "../CSS/ContactList.module.css";
-
+import ContactListArr from "../../data/ContactListArr";
+import style from "./ContactList.module.css";
 
 const ContactList = () => {
   const list = ContactListArr.map((elem, key) => (

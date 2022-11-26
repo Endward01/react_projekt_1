@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import style from "../CSS/Footer.module.css";
+import style from "./Footer.module.css";
 import {
   faFacebookSquare,
   faInstagram,
@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.container}>
-        <h1 className={style.Header}>
+        <h3 className={style.Header}>
           Nazwa firmy - wszelkie prawa zastrzeżone, 2019
-        </h1>
+        </h3>
 
         <div>
           <FontAwesomeIcon icon={faInstagram} className={style.link} />

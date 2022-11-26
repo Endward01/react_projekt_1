@@ -1,43 +1,54 @@
 .bg {
   background-color: #405d78;
 }
+
 .container {
   margin: 0 auto;
   padding: 3rem 0.75rem;
 }
+
 .header {
   text-align: center;
   color: white;
   font-size: 26px;
   margin-bottom: 4rem;
 }
+
 .list {
   display: grid;
   grid-column: 1;
   gap: 2rem;
 }
+
 @media screen and (min-width: 768px) {
+
   .container {
     width: 720px;
   }
+
   .list {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
 }
 @media screen and (min-width: 992px) {
+
   .container {
     width: 960px;
   }
+
   .header {
     text-align: left;
     font-size: 36px;
     margin-bottom: 3rem;
   }
+
   .list {
     width: 100%;
     grid-template-columns: 250px 250px 250px;
     grid-template-rows: 250px 250px;
     justify-content: center;
   }
+  
 }

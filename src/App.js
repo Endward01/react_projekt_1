@@ -1,16 +1,11 @@
 import "./App.css";
-import React, { useEffect } from "react";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Offer from "./components/Offer";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Offer from "./components/Offer/Offer";
 
 function App() {
-  useEffect(() => {
-    document.title = "Landing Page";
-  }, []);
-
   return (
     <>
       <NavBar />

@@ -1,11 +1,11 @@
-import OffersListArr from "../data/OffersListArr";
-import style from "../CSS/Offer.module.css";
+import OffersListArr from "../../data/OffersListArr";
+import style from "./Offer.module.css";
 import OfferElem from "./OfferElem";
-import OfferNewElem from "./OfferNewElem";
+
 const Offer = () => {
   const list = OffersListArr.map((elem,key) =>
     elem.new ? (
-      <OfferNewElem isNew={"(Nowość)"} elem={elem} key={key} />
+      <OfferElem isNew={true} elem={elem} key={key} />
     ) : (
       <OfferElem elem={elem} key={key} />
     )
@@ -19,4 +19,5 @@ const Offer = () => {
     </article>
   );
 };
+
 export default Offer;

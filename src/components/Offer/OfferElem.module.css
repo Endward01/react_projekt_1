@@ -9,10 +9,12 @@
   justify-content: center;
   margin: 0 auto;
 }
+
 .newListElem {
   composes: listElem;
   position: relative;
 }
+
 .newListElem::before {
   content: "";
   position: absolute;
@@ -26,6 +28,7 @@
 }
 
 @media screen and (min-width: 992px) {
+
   .listElem {
     width: 250px;
     transition: 0.5s transform ease-in-out;
@@ -35,4 +38,5 @@
     transform: scale(1.05);
     transition: 0.5s transform ease-in-out;
   }
+  
 }

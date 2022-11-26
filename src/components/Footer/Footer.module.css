@@ -2,6 +2,7 @@
   background-color: #4e4e4e;
   color: white;
 }
+
 .container {
   margin: 0 auto;
   display: flex;
@@ -10,29 +11,41 @@
   flex-direction: column;
   padding: 0.5rem 0.75rem;
 }
+
 .Header {
   font-weight: 700;
   margin-bottom: 1rem;
+  text-align: center;
 }
+
 .link {
   cursor: pointer;
   font-size: 26px;
 }
+
 .linkMargin {
   composes: link;
   margin-left: 1rem;
 }
+
 @media screen and (min-width: 768px) {
+
   .container {
     width: 720px;
   }
+
 }
+
 @media screen and (min-width: 992px) {
+
   .Header {
     margin-bottom: unset;
+    text-align: left;
   }
+
   .container {
     flex-direction: row;
     width: 960px;
   }
+
 }

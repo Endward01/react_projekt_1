@@ -1,5 +1,5 @@
 import ContactList from "./ContactList";
-import style from "../CSS/Contact.module.css";
+import style from "./Contact.module.css";
 
 const Contact = () => {
   return (

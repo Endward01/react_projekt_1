@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import style from "../CSS/NavBar.module.css";
+import style from "./NavBar.module.css";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 const NavBar = () => {
   return (
     <nav className={style.navbar}>
       <div className={style.container}>
-        <h1 className={style.navbarHeader}>Moja Firma</h1>
+        <h3 className={style.navbarHeader}>Moja Firma</h3>
         <div className={style.navbarLinks}>
           <a className={style.navbarLink} href="#about">
             O nas
