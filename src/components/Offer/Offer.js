@@ -1,4 +1,4 @@
-import OffersListArr from "../../data/OffersListArr";
+import OffersListArr from "../../data/offersListArr";
 import style from "./Offer.module.css";
 import OfferElem from "./OfferElem";
 
