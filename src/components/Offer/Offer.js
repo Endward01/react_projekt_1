@@ -1,9 +1,9 @@
-import { offersListArr } from "../../data/offersListArr.js";
+import { data } from "../../data/offersListArr.js";
 import style from "./Offer.module.css";
 import OfferElem from "./OfferElem";
 
 const Offer = () => {
-  const list = offersListArr.map((elem, key) =>
+  const list = data.map((elem, key) =>
     elem.new ? (
       <OfferElem isNew={true} elem={elem} key={key} />
     ) : (

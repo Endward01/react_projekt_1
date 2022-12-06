@@ -1,8 +1,8 @@
-import { contactListArr } from "../../data/contactListArr.js";
+import { data } from "../../data/contactListArr.js";
 import style from "./ContactList.module.css";
 
 const ContactList = () => {
-  const list = contactListArr.map((elem, key) => (
+  const list = data.map((elem, key) => (
     <li key={key} className={style.list}>
       <div
         style={{ backgroundImage: `url(${elem.photoOfEmployee})` }}
