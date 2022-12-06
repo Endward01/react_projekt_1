@@ -1,4 +1,4 @@
-const offersListArr = [
+export const offersListArr = [
   {name: "Usługa 1", new: true },
   {name: "Usługa 2", new: false },
   {name: "Usługa 3", new: false },
@@ -7,4 +7,3 @@ const offersListArr = [
   {name: "Usługa 6", new: false },
 ];
 
-export default offersListArr;

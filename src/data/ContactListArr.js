@@ -1,4 +1,4 @@
-const contactListArr = [
+export const contactListArr = [
   {
     photoOfEmployee:
       "https://media-exp1.licdn.com/dms/image/D4D03AQG63iAsnXw2Pg/profile-displayphoto-shrink_200_200/0/1667560048990?e=1674691200&v=beta&t=-cTuBbFAcazGUzBvW6Remg-kCL4rZCZF3Ewgo_FBUuc",
@@ -37,4 +37,3 @@ const contactListArr = [
   },
 ];
 
-export default contactListArr;

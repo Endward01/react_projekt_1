@@ -1,4 +1,4 @@
-import offersListArr from "../../data/offersListArr";
+import { offersListArr } from "../../data/offersListArr.js";
 import style from "./Offer.module.css";
 import OfferElem from "./OfferElem";
 
