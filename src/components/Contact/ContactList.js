@@ -1,4 +1,4 @@
-import { contactListArr } from "../../data/contactListArr.js";
+import contactListArr from "../../data/contactListArr";
 import style from "./ContactList.module.css";
 
 const ContactList = () => {
